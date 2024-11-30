@@ -45,8 +45,8 @@ class ExamSystem {
         loginButton.addActionListener(e -> {
             String user = username.getText();
             String pass = new String(password.getPassword());
-            if ("admin".equals(user) && "admin".equals(pass)) layout.show(mainPanel, "Admin");
-            else if ("student".equals(user) && "student".equals(pass)) layout.show(mainPanel, "Student");
+            if ("Vignesh".equals(user) && "vignesh123".equals(pass)) layout.show(mainPanel, "Admin");
+            else if ("vigneshkrct".equals(user) && "vigneshkrct".equals(pass)) layout.show(mainPanel, "Student");
             else JOptionPane.showMessageDialog(frame, "Invalid credentials");
         });
 
